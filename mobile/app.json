@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Lokali",
+    "slug": "lokali",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "lokali",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lokali.mobile"
+    },
+    "android": {
+      "package": "com.lokali.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f766e"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-location",
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
