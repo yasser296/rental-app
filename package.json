@@ -1,0 +1,15 @@
+{
+  "name": "lokali",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "mobile",
+    "shared"
+  ],
+  "scripts": {
+    "mobile": "npm --workspace mobile start",
+    "mobile:android": "npm --workspace mobile run android",
+    "mobile:ios": "npm --workspace mobile run ios",
+    "mobile:web": "npm --workspace mobile run web"
+  }
+}
